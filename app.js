@@ -36,6 +36,7 @@ function verificarChute() {
             tentativas++;
             limparCampo();
         }
+        document.getElementById('entrada').focus();
 }
 
 function gerarNumeroAleatorio() {
